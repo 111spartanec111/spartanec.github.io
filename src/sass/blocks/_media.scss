@@ -32,49 +32,50 @@
 }
 
 @media ( max-width: 575px ) {
-    .promo
-    .promo__wrapper {
+    .promo {
+    &__wrapper {
         align-items: center;
         margin-top: 37px;
     }
-    .promo__header {
+    &__header {
         font-size: 26px;
         text-align: center;
         line-height: 28px;
     }
-    .promo__subheader{
+    &__subheader{
         text-align: center;
         font-size: 17px;
     }
-    .promo__icons {
+    &__icons {
         width: 100%;
         justify-content: space-around;
         margin-top: 45px;
     }
-    .promo__link {
+    &__link {
         font-size: 14px;
+    }
     }
 
     .header {
         display: block;
-    }
-    .header__official {
+        &__official {
         display: none;
-    }
-    .header__phone {
+        }
+        &__phone {
         font-size: 18px;
         margin-top: 20px;
-    }
-    .header__logo {
+        }
+        &__logo {
         max-width: 220px;
         img {
             width: 50%;
             display: block;
             margin: 0 auto;
+            }
         }
-    }
-    .header__contacts {
-        align-items: center;
+        &__contacts {
+            align-items: center;
+        }
     }
 
     .button {
@@ -88,14 +89,13 @@
         }
     }
     
-
-    .advantages__item {
-        margin: 0 auto;
-        padding: 10px;
-        
-    }
-    .advantages__wrapper {
+.advantages {
+    &__wrapper {
         display: block;
     }
-
+    &__item {
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
 }
