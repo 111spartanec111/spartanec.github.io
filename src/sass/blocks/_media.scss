@@ -24,15 +24,18 @@
         font-size: 16px;
     }
     .header__official {
-        font-size: 12px;
+        font-size: 11px;
             span {
-                font-size: 16px;
+                font-size: 14px;
             }
     }
     .header__logo {
         width: 220px;
     }
 
+    .advantages__descr {
+        font-size: 13px;
+    }
 
     .consultation {
         .title {
@@ -46,8 +49,6 @@
     }
     .feed-form {
         align-items: center;
-        display: flex;
-        flex-direction: column;
         width: 100%;
     }
 }
@@ -129,14 +130,17 @@
 .consultation {
     &__descr {
         font-size: 18px;
+        line-height: 26px;
     }
+}
     .title {
         &_left {
             font-size: 18px;
             line-height: 26px;
         }
     }
-}
 
 }
+
+
 
