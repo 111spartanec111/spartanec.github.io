@@ -8,6 +8,9 @@
     .advantages__subtitle{
         text-align: center;
     }
+    .consultation {
+        padding: 100px 0px 108px 10px;
+    }
 }
 
 @media ( max-width: 767px ) {
@@ -28,6 +31,24 @@
     }
     .header__logo {
         width: 220px;
+    }
+
+
+    .consultation {
+        .title {
+            &_left {
+                text-align: center;
+            }
+        }
+        &__descr {
+            text-align: center;
+        }
+    }
+    .feed-form {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 }
 
@@ -87,6 +108,12 @@
             margin-top: 20px;
             font-size: 10px;
         }
+        &_submit {
+            width: 300px;
+            height: 55px;
+            font-size: 16px;
+        }
+
     }
     
 .advantages {
@@ -98,4 +125,18 @@
         padding: 10px;
     }
 }
+
+.consultation {
+    &__descr {
+        font-size: 18px;
+    }
+    .title {
+        &_left {
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
 }
+
+}
+
