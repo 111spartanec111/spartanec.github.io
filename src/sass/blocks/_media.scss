@@ -90,7 +90,7 @@
         &__logo {
         max-width: 220px;
         img {
-            width: 50%;
+            width: 280px;
             display: block;
             margin: 0 auto;
             }
@@ -102,12 +102,12 @@
 
     .button {
         margin-top: 10px;
-        width: 125px;
-        height: 30px;
-        font-size: 12px;
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
         &_main {
             margin-top: 20px;
-            font-size: 10px;
+            font-size: 14px;
         }
         &_submit {
             width: 300px;
@@ -128,6 +128,7 @@
 }
 
 .consultation {
+    padding: 100px 0px 108px 0px;
     &__descr {
         font-size: 18px;
         line-height: 26px;
