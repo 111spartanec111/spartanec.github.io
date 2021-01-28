@@ -11,6 +11,22 @@
     .consultation {
         padding: 100px 0px 108px 10px;
     }
+    .tns-item {
+        img {
+            width: 60%;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    .carousel {
+        .prev {
+            left: 60px;
+        } 
+        .next {
+            right: 60px;
+        }
+    }
+
 }
 
 @media ( max-width: 767px ) {
@@ -141,7 +157,14 @@
         }
     }
 
+    .carousel {
+        .prev {
+            display: none;
+        } 
+        .next {
+            display: none;
+        }  
+    }
 }
-
 
 
