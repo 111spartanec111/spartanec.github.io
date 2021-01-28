@@ -5,7 +5,7 @@
         width: 750px;
         margin: 0 auto;
     }
-    .slick-prev, .slick-next {
+    .prev, .next {   /* для Слик слайдера .slick_prev */
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -17,9 +17,24 @@
            height: 50px; 
         }
     }
-    .slick-next {
+    .next {
         right: -70px;
         left: auto;
     }
-
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    /* .tns-nav {
+        button {
+            background-color: red;
+            height: 30px;
+            width: 50px;
+        }
+        .tns-nav-active {
+            background-color: blue;
+        }
+    } */   /* Стилизация точек слайдера, необходимо только отключить в скрипте nav:false */
 }
