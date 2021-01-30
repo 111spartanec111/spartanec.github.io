@@ -67,6 +67,16 @@
         align-items: center;
         width: 100%;
     }
+    .catalog {
+        &__tab {
+            width: 170px;
+            font-size: 17px;
+        }
+        &-item {
+            width: 270px;
+            min-height: 400px;
+        }
+    }
 }
 
 @media ( max-width: 575px ) {
@@ -130,6 +140,11 @@
             height: 55px;
             font-size: 16px;
         }
+        &_mini {
+            width: 135px;
+            height: 44px;
+            font-size: 14px;
+        }
 
     }
     
@@ -165,6 +180,19 @@
             display: none;
         }  
     }
+
+    .catalog {
+        &__tabs {
+            display: block;
+
+        }
+        &__tab {
+            margin: 0 auto;
+            margin-bottom: 5px;
+        }
+    }
+
+
 }
 
 
