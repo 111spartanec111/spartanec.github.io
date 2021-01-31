@@ -1,5 +1,5 @@
 .feedback {
-    min-height: 942px;
+    padding-bottom: 70px;
     &__content {
         display: flex;
         justify-content: flex-start;
@@ -7,6 +7,11 @@
     }
     &__img {
         margin-right: 61px;
+        width: 169px;
+        height: 169px;
+    }
+    &__descr {
+        padding-right: 74px;
     }
     &__title {
         font-weight: 700;
