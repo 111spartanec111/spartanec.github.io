@@ -15,6 +15,8 @@
 //       });
 //   });
 
+// const { name } = require("browser-sync");
+
 
 
 
@@ -128,4 +130,6 @@ function valideForms(form){
 valideForms('#consultation-form');
 valideForms('#consultation form');
 valideForms('#order form');
+
+$('input[name=phone]').mask("+7 (999) 999-99-99");
  
