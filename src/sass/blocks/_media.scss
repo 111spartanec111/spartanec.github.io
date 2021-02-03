@@ -76,6 +76,13 @@
             width: 270px;
             min-height: 400px;
         }
+        &__content {
+            justify-content: space-around;              
+        }
+    }
+    .feedback__img {
+        margin-right: 51px;
+        margin-left: 25px;
     }
     .footer {
         &__info {
