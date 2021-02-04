@@ -134,7 +134,7 @@ valideForms('#order form');
 $('input[name=phone]').mask("+7 (999) 999-99-99");
 
 //  Mailer PHP
-$('form') .submit(function(e) {
+$('form').submit(function(e) {
   e.preventDefault();
   $.ajax({
     type: "POST",
