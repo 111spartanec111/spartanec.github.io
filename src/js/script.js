@@ -18,8 +18,6 @@
 // const { name } = require("browser-sync");
 
 
-
-
 var slider = tns({
     container: '.carousel__inner',
     items: 1,
@@ -99,7 +97,7 @@ $('.button_mini').each(function(i) {
 
 
 
-function valideForms(form){
+function validateForms(form){
   $(form).validate({
     rules: {
       name: {
@@ -127,11 +125,15 @@ function valideForms(form){
   });
 };
 
-valideForms('#consultation-form');
-valideForms('#consultation form');
-valideForms('#order form');
+validateForms('#consultation-form');
+validateForms('#consultation form');
+validateForms('#order form');
 
+
+// маска
 $('input[name=phone]').mask("+7 (999) 999-99-99");
+
+
 
 //  Mailer PHP
 $('form').submit(function(e) {
@@ -148,5 +150,4 @@ $('form').submit(function(e) {
     $('form').trigger('reset');
   });
   return false;
-})
- 
+});
