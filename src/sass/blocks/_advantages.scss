@@ -32,4 +32,13 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        &_animated {
+            animation: heartbeat 2.5s ease infinite;
+            
+            &:hover {
+               animation-play-state: paused;
+           }
+        }
+    }
 }
