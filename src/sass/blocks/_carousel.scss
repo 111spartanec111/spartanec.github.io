@@ -5,7 +5,7 @@
         width: 742px;
         margin: 0 auto;
         img {
-            max-width: 750px;
+            max-width: 650px;
         }
     }
     .prev, .next {   /* для Слик слайдера .slick_prev */
@@ -13,8 +13,10 @@
         top: 50%;
         transform: translateY(-50%);
         left: -5px;
-        border: none;
-        background-color: #fff;
+        border: 0;
+        background-color: white;
+        outline: none;
+        background: transparent;
         img{
            width: 30px;
            height: 50px; 
